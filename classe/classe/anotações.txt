@@ -1,0 +1,15 @@
+                                                 Modificadores de Acesso
+Public - Não existe restrições de acesso
+Private - Acesso limitado a membros da mesma classe(padrão)
+Protected - Acesso limitado a membros da mesma classe e das classes que herdeiras
+Internal - Acesso limitado a classes definidas dentro do assembly do projeto atual
+Protected Internal - Acesso limitado ao assembly atual e aos tipos derivados da classe que o contém
+Private Protected - O acesso é limitado à classe que o contém ou a tipos derivados da classe que contém no assembly atual
+
+                                                 Propriedades e Encapsulamento
+Não definimos os campos e usamos somente a propriedade com get e set
+
+public string Nome{
+    get { return nome; }
+    set { nome = value; }
+}
