@@ -5,7 +5,7 @@ Além disso, ensina como aplicar na prática os princípios SOLID (SRP, OCP, LSP
 
 Cada seção conta com exemplos práticos e exercícios para fixação.
 
-**Aprenderá:
+##Aprenderá:
 Entender e aplicar POO e princípios SOLID em C#;
 Usar boas práticas para escrever código limpo;
 Dominar conceitos como herança, composição, interfaces, classes abstratas e polimorfismo.
