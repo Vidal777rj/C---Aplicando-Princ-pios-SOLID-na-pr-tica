@@ -13,3 +13,18 @@ public string Nome{
     get { return nome; }
     set { nome = value; }
 }
+                                                 Entidades Anemicas e Entidades Ricas
+ Entidade Anêmica
+ Só tem propriedades (get/set).
+ Não guarda regras de negócio, só dados.
+ Toda lógica fica fora da entidade (em services, controllers etc).
+ Parece um DTO glorificado.
+ 
+ Entidade Rica
+ Tem propriedades + comportamento.
+ Guarda as regras de negócio nela mesma.
+ Encapsula lógica, garantindo consistência.
+ Mais próxima da ideia de OO + DDD.
+ 
+                                                 Sobrecargas 
+É quando você cria métodos com o mesmo nome, mas assinaturas diferentes (parâmetros diferentes em tipo ou quantidade).
